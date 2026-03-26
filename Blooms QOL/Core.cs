@@ -9,7 +9,7 @@ namespace Blooms_QOL
     {
         public override void OnInitializeMelon()
         {
-            
+            Persistent_HP_Toggle.Core.Main();
         }
     }
 }

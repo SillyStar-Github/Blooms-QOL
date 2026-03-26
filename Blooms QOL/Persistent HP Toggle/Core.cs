@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cassidy_QOL.Mods.SaveShowHP
+namespace Blooms_QOL.Persistent_HP_Toggle
 {
     public class Core
     {
@@ -16,8 +16,8 @@ namespace Cassidy_QOL.Mods.SaveShowHP
 
         public static void Config()
         {
-            MelonPreferences.CreateEntry<int>("CassidyQOL", "ShowPlantHP", 0);
-            MelonPreferences.CreateEntry<bool>("CassidyQOL", "ShowZombieHP", false);
+            MelonPreferences.CreateEntry<int>("BloomsQOL", "ShowPlantHP", 0);
+            MelonPreferences.CreateEntry<bool>("BloomsQOL", "ShowZombieHP", false);
         }
     }
 }
